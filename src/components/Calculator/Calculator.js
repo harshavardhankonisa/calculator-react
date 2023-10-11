@@ -36,7 +36,9 @@ export class Calculator extends Component {
         input: input.slice(0, -1),
       });
     } else if (value === "=") {
-      this.calculateResult();
+      if(input.length>0){
+        this.calculateResult();
+      }
     } else {
       this.setState({
         input: input + value,

@@ -16,7 +16,7 @@ export class Calculator extends Component {
     const { input } = this.state;
     try {
       const result = math.evaluate(input);
-      if (result > 999999999999 && result < -999999999999) {
+      if (result > 999999999999 || result < -999999999999) {
         this.setState({ result: "Math Error", input: "" });
       } else {
         this.setState({ result: result.toFixed(2), input: "" });

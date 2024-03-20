@@ -1,8 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+main{
+  background-color: black;
+  height: 100vh;
+}
+
 .App {
   text-align: center;
   margin-left: auto;
   margin-right: auto;
-  width: 400px;
 }
 
 @media only screen and (min-width: 400px) {

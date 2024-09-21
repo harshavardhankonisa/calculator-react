@@ -1,6 +1,6 @@
 # React Calculator with Math.js
 
-[Explore the Calculator Tool Here](https://main--teal-flan-634b92.netlify.app/).
+[Explore the Calculator Tool Here](https://harshavardhankonisa.github.io/calculator-react/).
 
 A simple web-based calculator built with React.js and the Math.js library, capable of performing basic arithmetic operations while following the order of operations (BODMAS).
 

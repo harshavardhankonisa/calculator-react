@@ -1,6 +1,7 @@
 {
   "name": "calculator",
   "version": "0.1.0",
+  "homepage": "https://harshavardhankonisa.github.io/calculator-react/",
   "private": true,
   "dependencies": {
     "mathjs": "^11.11.1",
